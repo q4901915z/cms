@@ -11,12 +11,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0" />
 <title>登录</title>
 
-<link rel="stylesheet" type="text/css" href="static/bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="static/main.css" />
-<link href="static/login/login-soft.css" rel="stylesheet" type="text/css"/>
-<link rel="shortcut icon" href="/static/js/login/favicon.ico" />
-<script src="static/js/jquery.min.js" type="text/javascript"></script>
-<script src="static/login/jquery.backstretch.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/cms/static/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/cms/static/main.css" />
+<link href="/cms/static/login/login-soft.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="/cms/static/js/login/favicon.ico" />
+<script src="/cms/static/js/jquery.min.js" type="text/javascript"></script>
+<script src="/cms/static/login/jquery.backstretch.min.js" type="text/javascript"></script>
 
 
 </head>
@@ -29,7 +29,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 			<div class="login-content ">
 			<div class="form">
-			<form action="user/showUser" method="post">
+			<form action="/cms/user/showUser" method="post">
 				<div class="form-group">
 					<div class="col-xs-12  ">
 						<div class="input-group">
@@ -72,7 +72,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <script >
  jQuery(document).ready(function() {     
        $.backstretch([
-        "static/login/1.jpg"
+        "/cms/static/login/1.jpg"
         ], {
           fade: 2000,
           duration: 5000
