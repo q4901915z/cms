@@ -19,6 +19,6 @@ public class UserController {
     public String toIndex(HttpServletRequest request, User model) {
         User user = userService.getUserByParams(model.getUserName(), model.getPassword());
         request.setAttribute("user", user);
-        return "home/homePage";
+        return "home/home";
     }
 }

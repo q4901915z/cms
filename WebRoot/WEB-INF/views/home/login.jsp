@@ -70,7 +70,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div style="text-align:center;">
 </div>
 <script >
-/* jQuery(document).ready(function() {     
+ jQuery(document).ready(function() {     
        $.backstretch([
         "static/login/1.jpg"
         ], {
@@ -78,7 +78,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           duration: 5000
     }
     );
-}); */
+}); 
 </script>
 
 </body>
