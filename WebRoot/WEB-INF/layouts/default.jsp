@@ -6,6 +6,7 @@
     <sitemesh:write property='title' > - ltcms</sitemesh:write>
 </title>
 <head>
+	<sitemesh:write property='head' />
    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
