@@ -9,8 +9,8 @@
    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link href="/cms/static/css/style.css" rel="stylesheet"/>
-    
+   <link href="/cms/static/css/style.css" rel="stylesheet"/>
+   <link href="/cms/static/css/main.css" rel="stylesheet"/>
    <link href='http://fonts.useso.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'/>
 <!-- dropdown -->
 <script src="/cms/static/js/jquery.easydropdown.js"></script>
@@ -40,7 +40,7 @@
 			 <div class="cssmenu">
 				<ul>
 					<li class="active"><a href="login.html">Account</a></li> 
-					<li><a href="wishlist.html">Wishlist</a></li> 
+					<li><a href="/cms/user/bootstrap">bootstrap练习</a></li> 
 					<li><a href="/cms/user/login">登录</a></li> 
 					<li><a href="register.html">注销</a></li>
 				</ul>
@@ -62,7 +62,7 @@
 		  <li><a href="#">Shop</a></li>
 		  <li><a href="#">Media</a></li>
 		  <li><a href="#">Features</a></li>
-		  <li><a href="#">About Us</a></li>
+		  <li><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=3541e5f06b309edd88b97b3ea1f88a9221902fe204276990956297423cbd5441"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="资料库" title="资料库"></a></li>
 		  <li><a href="contact.html">Contact Us</a></li>
 		</ul>
 		<p class="copy">Copyright &copy; 2015.Company name All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>

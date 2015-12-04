@@ -26,4 +26,9 @@ public class UserController {
     public String login(HttpServletRequest request) {
         return "home/login";
     }
+
+    @RequestMapping("/bootstrap")
+    public String tocss(HttpServletRequest request) {
+        return "bootstrapLearn/bootstrap";
+    }
 }
