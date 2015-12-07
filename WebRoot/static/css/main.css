@@ -1,3 +1,25 @@
-.producticon{
-	float: left;
+.productul{
+	list-style-type: none;
 }
+
+.productli{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.productitem{
+	width: 250px;
+	height: 180px;
+	background-color: #F7F7F7;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.productName{
+	font-size: 16px;
+	color: #333;
+	line-height: 20px;
+	padding-top: 15px;
+}
+

@@ -14,12 +14,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 
 <body>
-<div class="tab-content">
-	<ul>
+<div class="tab-content" style="min-height: 400px">
+	<ul class="productul">
 		<c:forEach var="item" items="${Products}">
-	    	<li>
-	    		<div style="padding: 20px">
-	    			<div class="producticon"> <img src="${item.snapshotsUrl }"  width="100" height="100px" alt="${item.productName }"> </div>
+	    	<li  class="productli">
+	    		<div class="productitem">
+	    			<div> <img src="/cms/static/images/product/wangzong/aaaa.jpg"  width="200px" height="140px" alt="配件"> </div>
+	    			<p class="productName">${item.productName }</p>
 	    		</div>
 	    	</li>
     	</c:forEach>
