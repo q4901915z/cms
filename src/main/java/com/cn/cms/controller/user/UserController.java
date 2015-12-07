@@ -1,4 +1,4 @@
-package com.cn.cms.controller;
+package com.cn.cms.controller.user;
 
 import javax.servlet.http.HttpServletRequest;
 
