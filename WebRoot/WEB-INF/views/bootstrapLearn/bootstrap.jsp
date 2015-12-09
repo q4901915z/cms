@@ -12,7 +12,46 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <body>
 
-<img src="/cms/static/login/1.jpg" class="img-responsive" alt="Responsive image">
+ <div class="container">
+      <h2>表格</h2>
+      <p> .table 为任意表格添加基本样式 (只有横向分隔线):</p>            
+      <table  class="table table-striped  table-bordered table-hover table-condensed">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Firstname</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="active">
+            <td>1</td>
+            <td>Anna</td>
+          </tr>
+          <tr class="active">
+            <td>2</td>
+            <td>Debbie</td>
+          </tr>
+          <tr class="active">
+            <td>3</td>
+            <td>John</td>
+          </tr>
+           <tr class="active">
+            <td>4</td>
+            <td>John</td>
+          </tr>
+           <tr class="active">
+            <td>5</td>
+            <td>John</td>
+          </tr>
+           <tr class="active">
+            <td>6</td>
+            <td>John</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+
 
 </body>
 </html>
