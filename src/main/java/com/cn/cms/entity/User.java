@@ -11,8 +11,9 @@ import javax.persistence.Table;
 
 @Entity
 @SuppressWarnings("serial")
-@Table(name = "account")
+@Table(name = "user")
 public class User implements Serializable {
+
     private Long userId;
     // 用户名
     private String userName;
@@ -20,16 +21,12 @@ public class User implements Serializable {
     private String password;
     // 真实姓名
     private String realName;
-    // 家庭住址
-    private String address;
     // 手机号码
     private String phone;
-    // 性别
-    private Long sex;
-    // 用户类型,1普通用户;2管理员;3超级管理员
+    // 用户类型,1店员;2老板;3超级管理员
     private Long type;
     // 账号是否有效,0无效，1有效
-    private Long status;
+    private Long state;
     // 最后登录时间
     private Date lastLoginTime;
     // 创建时间
@@ -71,14 +68,6 @@ public class User implements Serializable {
         this.realName = realName;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public String getPhone() {
         return phone;
     }
@@ -87,28 +76,12 @@ public class User implements Serializable {
         this.phone = phone;
     }
 
-    public Long getSex() {
-        return sex;
-    }
-
-    public void setSex(Long sex) {
-        this.sex = sex;
-    }
-
     public Long getType() {
         return type;
     }
 
     public void setType(Long type) {
         this.type = type;
-    }
-
-    public Long getStatus() {
-        return status;
-    }
-
-    public void setStatus(Long status) {
-        this.status = status;
     }
 
     public Date getLastLoginTime() {
@@ -133,6 +106,14 @@ public class User implements Serializable {
 
     public void setModifyTime(Date modifyTime) {
         this.modifyTime = modifyTime;
+    }
+
+    public Long getState() {
+        return state;
+    }
+
+    public void setState(Long state) {
+        this.state = state;
     }
 
 }
